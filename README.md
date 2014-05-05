@@ -1,15 +1,15 @@
-DarkCoin integration/staging tree
+Okcoin integration/staging tree
 ================================
 
-http://www.darkcoin.io
+http://www.okcoin.io
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2013-2014 DarkCoin Developers
+Copyright (c) 2013-2014 okcoin Developers
 
-What is DarkCoin?
+What is okcoin?
 ----------------
 
-DarkCoin is a lite version of Bitcoin using X11 as a proof-of-work algorithm.
+okcoin is a lite version of Bitcoin using X11 as a proof-of-work algorithm.
  - Super secure hashing algorithm: 11 rounds of scientific hashing functions (blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, shavite, simd, echo)
  - Block reward is controlled by moore's law: 2222222/(((Difficulty+2600)/9)^2)
  - GPU/CPU only mining
@@ -19,12 +19,12 @@ DarkCoin is a lite version of Bitcoin using X11 as a proof-of-work algorithm.
  - Anonymous blockchain using DarkSend technology (Based on CoinJoin): Beta Testing
 
 For more information, as well as an immediately useable, binary version of
-the DarkCoin client sofware, see http://www.darkcoin.io.
+the okcoin client sofware, see http://www.okcoin.io.
 
 License
 -------
 
-DarkCoin is released under the terms of the MIT license. See `COPYING` for more
+okcoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -33,7 +33,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the DarkCoin
+If it is a simple/trivial/non-controversial change, then one of the okcoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -47,7 +47,7 @@ controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of DarkCoin.
+regularly to indicate new official, stable release versions of okcoin.
 
 Testing
 -------
@@ -70,5 +70,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./darkcoin-qt_test
+    ./okcoin-qt_test
 
