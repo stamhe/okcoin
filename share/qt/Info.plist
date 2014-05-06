@@ -3,11 +3,11 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>darkcoin.icns</string>
+	<string>Okcoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>$VERSION, Copyright © 2014 The Darkcoin developers</string>
+	<string>$VERSION, Copyright © 2014 The Okcoin developers</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$VERSION</string>
 	<key>CFBundleVersion</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>DarkCoin-Qt</string>
+	<string>Okcoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.darkcoin.DarkCoin-Qt</string>
+	<string>org.Okcoin.Okcoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.darkcoin.DarkCoinPayment</string>
+            <string>org.Okcoin.OkcoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>darkcoin</string>
+              <string>Okcoin</string>
             </array>
           </dict>
         </array>

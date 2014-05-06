@@ -1,9 +1,9 @@
-Building DarkCoin
+Building Okcoin
 
-See doc/readme-qt.rst for instructions on building DarkCoin-Qt,
+See doc/readme-qt.rst for instructions on building Okcoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of DarkCoin.
+implementation of Okcoin.
 
-See doc/build-*.txt for instructions on building darkcoind,
+See doc/build-*.txt for instructions on building Okcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of DarkCoin.
+implementation of Okcoin.
